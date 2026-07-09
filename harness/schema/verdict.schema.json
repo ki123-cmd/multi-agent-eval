@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ReviewVerdict",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["canary", "verdict", "critical_issues", "suggestions", "confidence"],
+  "properties": {
+    "canary": {
+      "description": "Facts derivable ONLY from the inlined diff. Mismatch invalidates the run.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["first_changed_file", "changed_file_count"],
+      "properties": {
+        "first_changed_file": {
+          "type": "string",
+          "description": "The b/ path on the FIRST 'diff --git' line, without the 'b/' prefix."
+        },
+        "changed_file_count": {
+          "type": "integer",
+          "description": "Total number of 'diff --git' lines in the diff."
+        }
+      }
+    },
+    "verdict": { "type": "string", "enum": ["PASS", "FAIL"] },
+    "critical_issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "severity", "file", "line", "reason", "suggested_fix"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "severity": { "type": "string", "enum": ["low", "medium", "high", "critical"] },
+          "file": { "type": "string" },
+          "line": { "type": "integer" },
+          "reason": { "type": "string" },
+          "suggested_fix": { "type": "string" }
+        }
+      }
+    },
+    "suggestions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "reason"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "reason": { "type": "string" }
+        }
+      }
+    },
+    "confidence": { "type": "string", "enum": ["low", "medium", "high"] }
+  }
+}

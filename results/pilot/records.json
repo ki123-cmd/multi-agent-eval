@@ -1,0 +1,153 @@
+{
+  "records": [
+    {
+      "item_id": "sentry-0",
+      "sha256": "ce65d149d616c16d2a2133536b1099adc8862a4a47e91750e1d4846946b8979d",
+      "rep": 0,
+      "arm": "codex-gpt5.5",
+      "backend": "codex",
+      "model": "gpt-5.5",
+      "effort": "medium",
+      "status": "VALID",
+      "reasons": [],
+      "verdict": "FAIL",
+      "n_findings": 1,
+      "n_golden": 3,
+      "n_matched": 1,
+      "matched_golden": [
+        0
+      ],
+      "duration_ms": 24296,
+      "cost_usd": null,
+      "tokens": {},
+      "schema_failure": false,
+      "error": null
+    },
+    {
+      "item_id": "sentry-0",
+      "sha256": "ce65d149d616c16d2a2133536b1099adc8862a4a47e91750e1d4846946b8979d",
+      "rep": 0,
+      "arm": "claude-opus",
+      "backend": "claude",
+      "model": "claude-opus-4-8",
+      "effort": "medium",
+      "status": "INVALID",
+      "reasons": [
+        "no parseable JSON verdict"
+      ],
+      "verdict": null,
+      "n_findings": 0,
+      "n_golden": 3,
+      "n_matched": 0,
+      "matched_golden": [],
+      "duration_ms": 221190,
+      "cost_usd": 0.1198285,
+      "tokens": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cache_creation_input_tokens": 0
+      },
+      "schema_failure": true,
+      "error": null
+    },
+    {
+      "item_id": "sentry-1",
+      "sha256": "a2aeb4afdaf990095a141328f165f7d38d1777e8e44d59b8fab1b89f67fbeefc",
+      "rep": 0,
+      "arm": "codex-gpt5.5",
+      "backend": "codex",
+      "model": "gpt-5.5",
+      "effort": "medium",
+      "status": "VALID",
+      "reasons": [],
+      "verdict": "FAIL",
+      "n_findings": 2,
+      "n_golden": 3,
+      "n_matched": 1,
+      "matched_golden": [
+        0
+      ],
+      "duration_ms": 24712,
+      "cost_usd": null,
+      "tokens": {},
+      "schema_failure": false,
+      "error": null
+    },
+    {
+      "item_id": "sentry-1",
+      "sha256": "a2aeb4afdaf990095a141328f165f7d38d1777e8e44d59b8fab1b89f67fbeefc",
+      "rep": 0,
+      "arm": "claude-opus",
+      "backend": "claude",
+      "model": "claude-opus-4-8",
+      "effort": "medium",
+      "status": "INVALID",
+      "reasons": [
+        "missing field: confidence"
+      ],
+      "verdict": "FAIL",
+      "n_findings": 0,
+      "n_golden": 3,
+      "n_matched": 0,
+      "matched_golden": [],
+      "duration_ms": 108310,
+      "cost_usd": 0.3112665,
+      "tokens": {
+        "input_tokens": 9760,
+        "output_tokens": 6039,
+        "cache_creation_input_tokens": 10249
+      },
+      "schema_failure": false,
+      "error": null
+    },
+    {
+      "item_id": "sentry-2",
+      "sha256": "482f627df4dc47c994fd871788b5ce17457228ab566097a47e27caf6aa9a3059",
+      "rep": 0,
+      "arm": "codex-gpt5.5",
+      "backend": "codex",
+      "model": "gpt-5.5",
+      "effort": "medium",
+      "status": "VALID",
+      "reasons": [],
+      "verdict": "FAIL",
+      "n_findings": 1,
+      "n_golden": 3,
+      "n_matched": 0,
+      "matched_golden": [],
+      "duration_ms": 24555,
+      "cost_usd": null,
+      "tokens": {},
+      "schema_failure": false,
+      "error": null
+    },
+    {
+      "item_id": "sentry-2",
+      "sha256": "482f627df4dc47c994fd871788b5ce17457228ab566097a47e27caf6aa9a3059",
+      "rep": 0,
+      "arm": "claude-opus",
+      "backend": "claude",
+      "model": "claude-opus-4-8",
+      "effort": "medium",
+      "status": "INVALID",
+      "reasons": [
+        "missing field: confidence"
+      ],
+      "verdict": "FAIL",
+      "n_findings": 0,
+      "n_golden": 3,
+      "n_matched": 0,
+      "matched_golden": [],
+      "duration_ms": 80127,
+      "cost_usd": 0.2640565,
+      "tokens": {
+        "input_tokens": 9760,
+        "output_tokens": 4107,
+        "cache_creation_input_tokens": 10358
+      },
+      "schema_failure": false,
+      "error": null
+    }
+  ],
+  "skipped": []
+}
