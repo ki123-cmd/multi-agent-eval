@@ -11,7 +11,10 @@
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "moby": false
-    }
+    },
+    // 自定义镜像不像默认的 universal 镜像那样自带 sshd，
+    // 没有它 `gh codespace ssh` 连不上（只能用网页 VS Code）。
+    "ghcr.io/devcontainers/features/sshd:1": {}
   },
 
   // 注意：hostRequirements 会过滤可选机型。先不设限，探明账号实际能拿到什么规格，
