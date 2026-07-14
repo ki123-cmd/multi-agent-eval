@@ -4,8 +4,14 @@
 
   // SWE-bench 的评测必须在 Docker 里跑（逐 instance 复现依赖环境）。
   // Codespace 本身就是个容器，所以要显式开 docker-in-docker。
+  // moby: false 是必须的 —— python:3.11 镜像现在基于 Debian trixie，
+  // 而 moby-cli 等包在 trixie 上不存在，用默认值会导致 feature 安装失败、
+  // 容器创建失败、GitHub 回退到 recovery container（表现为"Docker 不可用"）。
+  // false = 改装上游 Docker CE。
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "moby": false
+    }
   },
 
   // 注意：hostRequirements 会过滤可选机型。先不设限，探明账号实际能拿到什么规格，
