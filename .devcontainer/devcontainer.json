@@ -1,0 +1,26 @@
+{
+  "name": "swebench-eval",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
+  // SWE-bench 的评测必须在 Docker 里跑（逐 instance 复现依赖环境）。
+  // Codespace 本身就是个容器，所以要显式开 docker-in-docker。
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+
+  // SWE-bench 官方最低要求：x86_64 / 8 核 / 16GB RAM / 120GB 磁盘。
+  // storage 拉满 128GB —— 这是 Codespaces 的上限，也是本方案唯一擦边的资源。
+  "hostRequirements": {
+    "cpus": 8,
+    "memory": "32gb",
+    "storage": "128gb"
+  },
+
+  "postCreateCommand": "pip install --upgrade pip && pip install swebench datasets",
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}

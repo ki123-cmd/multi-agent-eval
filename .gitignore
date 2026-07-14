@@ -1,3 +1,8 @@
 results/**/work/
 results/**/packages/
 __pycache__/
+
+# 数据集克隆（嵌套 git 仓库，用脚本重新拉即可，不入库）
+review-eval/sources/
+review-eval/work/
+review-paths/plugin/work/

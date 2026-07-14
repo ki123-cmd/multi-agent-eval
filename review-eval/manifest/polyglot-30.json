@@ -1,0 +1,284 @@
+{
+  "_meta": {
+    "dataset": "Aider Polyglot (python subset)",
+    "task_type": "feature implementation (exercism)",
+    "metric": "test pass/fail",
+    "golden": ".meta/example.py (官方参考解)",
+    "seed": 42,
+    "frame_size": 34,
+    "frame_restriction": "仅 python 子集（34 个）。其他 5 种语言需各自工具链。",
+    "execution_blocker": "无。只需 pip install pytest。"
+  },
+  "cases": [
+    {
+      "id": "polyglot-py-affine-cipher",
+      "slug": "affine-cipher",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\affine-cipher\\affine_cipher.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\affine-cipher\\affine_cipher_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\affine-cipher\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\affine-cipher\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-beer-song",
+      "slug": "beer-song",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\beer-song\\beer_song.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\beer-song\\beer_song_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\beer-song\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\beer-song\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-book-store",
+      "slug": "book-store",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\book-store\\book_store.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\book-store\\book_store_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\book-store\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\book-store\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-bottle-song",
+      "slug": "bottle-song",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\bottle-song\\bottle_song.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\bottle-song\\bottle_song_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\bottle-song\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\bottle-song\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-bowling",
+      "slug": "bowling",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\bowling\\bowling.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\bowling\\bowling_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\bowling\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\bowling\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-dominoes",
+      "slug": "dominoes",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\dominoes\\dominoes.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\dominoes\\dominoes_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\dominoes\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\dominoes\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-dot-dsl",
+      "slug": "dot-dsl",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\dot-dsl\\dot_dsl.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\dot-dsl\\dot_dsl_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\dot-dsl\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\dot-dsl\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-food-chain",
+      "slug": "food-chain",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\food-chain\\food_chain.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\food-chain\\food_chain_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\food-chain\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\food-chain\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-forth",
+      "slug": "forth",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\forth\\forth.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\forth\\forth_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\forth\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\forth\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-go-counting",
+      "slug": "go-counting",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\go-counting\\go_counting.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\go-counting\\go_counting_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\go-counting\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\go-counting\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-grade-school",
+      "slug": "grade-school",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\grade-school\\grade_school.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\grade-school\\grade_school_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\grade-school\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\grade-school\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-hangman",
+      "slug": "hangman",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\hangman\\hangman.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\hangman\\hangman_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\hangman\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\hangman\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-list-ops",
+      "slug": "list-ops",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\list-ops\\list_ops.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\list-ops\\list_ops_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\list-ops\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\list-ops\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-paasio",
+      "slug": "paasio",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\paasio\\paasio.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\paasio\\paasio_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\paasio\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\paasio\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-phone-number",
+      "slug": "phone-number",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\phone-number\\phone_number.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\phone-number\\phone_number_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\phone-number\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\phone-number\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-pig-latin",
+      "slug": "pig-latin",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\pig-latin\\pig_latin.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\pig-latin\\pig_latin_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\pig-latin\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\pig-latin\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-poker",
+      "slug": "poker",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\poker\\poker.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\poker\\poker_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\poker\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\poker\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-react",
+      "slug": "react",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\react\\react.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\react\\react_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\react\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\react\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-rest-api",
+      "slug": "rest-api",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\rest-api\\rest_api.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\rest-api\\rest_api_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\rest-api\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\rest-api\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-robot-name",
+      "slug": "robot-name",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\robot-name\\robot_name.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\robot-name\\robot_name_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\robot-name\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\robot-name\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-scale-generator",
+      "slug": "scale-generator",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\scale-generator\\scale_generator.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\scale-generator\\scale_generator_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\scale-generator\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\scale-generator\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-sgf-parsing",
+      "slug": "sgf-parsing",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\sgf-parsing\\sgf_parsing.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\sgf-parsing\\sgf_parsing_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\sgf-parsing\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\sgf-parsing\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-simple-linked-list",
+      "slug": "simple-linked-list",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\simple-linked-list\\simple_linked_list.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\simple-linked-list\\simple_linked_list_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\simple-linked-list\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\simple-linked-list\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-transpose",
+      "slug": "transpose",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\transpose\\transpose.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\transpose\\transpose_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\transpose\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\transpose\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-tree-building",
+      "slug": "tree-building",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\tree-building\\tree_building.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\tree-building\\tree_building_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\tree-building\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\tree-building\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-two-bucket",
+      "slug": "two-bucket",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\two-bucket\\two_bucket.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\two-bucket\\two_bucket_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\two-bucket\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\two-bucket\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-variable-length-quantity",
+      "slug": "variable-length-quantity",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\variable-length-quantity\\variable_length_quantity.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\variable-length-quantity\\variable_length_quantity_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\variable-length-quantity\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\variable-length-quantity\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-wordy",
+      "slug": "wordy",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\wordy\\wordy.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\wordy\\wordy_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\wordy\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\wordy\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-zebra-puzzle",
+      "slug": "zebra-puzzle",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\zebra-puzzle\\zebra_puzzle.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\zebra-puzzle\\zebra_puzzle_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\zebra-puzzle\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\zebra-puzzle\\.docs\\instructions.md"
+    },
+    {
+      "id": "polyglot-py-zipper",
+      "slug": "zipper",
+      "lang": "python",
+      "stub": "sources\\polyglot-benchmark\\python\\exercises\\practice\\zipper\\zipper.py",
+      "test": "sources\\polyglot-benchmark\\python\\exercises\\practice\\zipper\\zipper_test.py",
+      "golden": "sources\\polyglot-benchmark\\python\\exercises\\practice\\zipper\\.meta\\example.py",
+      "docs": "sources\\polyglot-benchmark\\python\\exercises\\practice\\zipper\\.docs\\instructions.md"
+    }
+  ]
+}

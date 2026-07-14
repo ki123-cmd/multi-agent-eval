@@ -1,0 +1,372 @@
+{
+  "records": [
+    {
+      "id": "martian-cal_dot_com-10600",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "feat/2fa-backup-codes",
+      "github_changed_files": 16,
+      "local_files": 16,
+      "commits": 20,
+      "n_golden_comments": 4
+    },
+    {
+      "id": "martian-cal_dot_com-10967",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "fix-collective-events-have-only-one-team-attendee-on-the-google-event-7754-cal-1267",
+      "github_changed_files": 22,
+      "local_files": 22,
+      "commits": 14,
+      "n_golden_comments": 5
+    },
+    {
+      "id": "martian-cal_dot_com-11059",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "feat/sync-app-credentials",
+      "github_changed_files": 40,
+      "local_files": 40,
+      "commits": 25,
+      "n_golden_comments": 5
+    },
+    {
+      "id": "martian-cal_dot_com-14740",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "issue#14691",
+      "github_changed_files": 15,
+      "local_files": 15,
+      "commits": 25,
+      "n_golden_comments": 5
+    },
+    {
+      "id": "martian-cal_dot_com-14943",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "fix/add-retry-count-workflow-reminder",
+      "github_changed_files": 3,
+      "local_files": 3,
+      "commits": 7,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-cal_dot_com-8330",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "fix/round-robin-date-override",
+      "github_changed_files": 4,
+      "local_files": 4,
+      "commits": 11,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-discourse-4",
+      "status": "ok",
+      "base_ref": "embed-url-handling-pre",
+      "head_ref": "embed-url-handling-post",
+      "github_changed_files": 28,
+      "local_files": 28,
+      "commits": 1,
+      "n_golden_comments": 6
+    },
+    {
+      "id": "martian-discourse-5",
+      "status": "ok",
+      "base_ref": "header-layout-optimization-pre",
+      "head_ref": "header-layout-optimization-post",
+      "github_changed_files": 5,
+      "local_files": 5,
+      "commits": 1,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-discourse-6",
+      "status": "ok",
+      "base_ref": "url-handling-pre",
+      "head_ref": "url-handling-post",
+      "github_changed_files": 5,
+      "local_files": 5,
+      "commits": 1,
+      "n_golden_comments": 1
+    },
+    {
+      "id": "martian-discourse-8",
+      "status": "ok",
+      "base_ref": "group-dm-user-addition-pre",
+      "head_ref": "group-dm-user-addition-post",
+      "github_changed_files": 16,
+      "local_files": 16,
+      "commits": 1,
+      "n_golden_comments": 3
+    },
+    {
+      "id": "martian-discourse-9",
+      "status": "ok",
+      "base_ref": "localization-system-pre",
+      "head_ref": "localization-system-post",
+      "github_changed_files": 7,
+      "local_files": 7,
+      "commits": 1,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-grafana-76186",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "giuseppe/rename-instrumentation-middleware",
+      "github_changed_files": 8,
+      "local_files": 8,
+      "commits": 10,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-grafana-79265",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "jguer/add-anon-device-limit",
+      "github_changed_files": 11,
+      "local_files": 11,
+      "commits": 5,
+      "n_golden_comments": 5
+    },
+    {
+      "id": "martian-grafana-90939",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "diegommm/fix-data-race-get-web-assets",
+      "github_changed_files": 1,
+      "local_files": 1,
+      "commits": 1,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-grafana-94942",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "sj/disable-sql-expressions",
+      "github_changed_files": 7,
+      "local_files": 7,
+      "commits": 2,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-keycloak-1",
+      "status": "ok",
+      "base_ref": "improve-auth-user-experience",
+      "head_ref": "enhance-passkey-authentication-flow",
+      "github_changed_files": 9,
+      "local_files": 9,
+      "commits": 2,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-keycloak-33832",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "33831-authz-client-crypto",
+      "github_changed_files": 12,
+      "local_files": 12,
+      "commits": 1,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-keycloak-36880",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "35564-client-authz-schema",
+      "github_changed_files": 10,
+      "local_files": 10,
+      "commits": 1,
+      "n_golden_comments": 3
+    },
+    {
+      "id": "martian-keycloak-36882",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "t_36840",
+      "github_changed_files": 11,
+      "local_files": 11,
+      "commits": 5,
+      "n_golden_comments": 1
+    },
+    {
+      "id": "martian-keycloak-37429",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "is-37428-add-html-sanitizer-for-messages",
+      "github_changed_files": 48,
+      "local_files": 48,
+      "commits": 1,
+      "n_golden_comments": 4
+    },
+    {
+      "id": "martian-keycloak-37634",
+      "status": "ok",
+      "base_ref": "main",
+      "head_ref": "37118-access-token-ids-rebase",
+      "github_changed_files": 28,
+      "local_files": 28,
+      "commits": 2,
+      "n_golden_comments": 4
+    },
+    {
+      "id": "martian-sentry-1",
+      "status": "ok",
+      "base_ref": "master",
+      "head_ref": "performance-enhancement-complete",
+      "github_changed_files": 3,
+      "local_files": 3,
+      "commits": 1,
+      "n_golden_comments": 3
+    },
+    {
+      "id": "martian-sentry-2",
+      "status": "ok",
+      "base_ref": "performance-optimization-baseline",
+      "head_ref": "performance-enhancement-complete",
+      "github_changed_files": 9,
+      "local_files": 9,
+      "commits": 2,
+      "n_golden_comments": 3
+    },
+    {
+      "id": "martian-sentry-3",
+      "status": "ok",
+      "base_ref": "master",
+      "head_ref": "error-upsampling-race-condition",
+      "github_changed_files": 8,
+      "local_files": 8,
+      "commits": 2,
+      "n_golden_comments": 3
+    },
+    {
+      "id": "martian-sentry-5",
+      "status": "ok",
+      "base_ref": "replays-delete-vulnerable",
+      "head_ref": "replays-delete-stable",
+      "github_changed_files": 106,
+      "local_files": 106,
+      "commits": 32,
+      "n_golden_comments": 3
+    },
+    {
+      "id": "martian-sentry-67876",
+      "status": "ok",
+      "base_ref": "master",
+      "head_ref": "fix/oauth-validate-github-integration-user",
+      "github_changed_files": 3,
+      "local_files": 3,
+      "commits": 5,
+      "n_golden_comments": 3
+    },
+    {
+      "id": "martian-sentry-77754",
+      "status": "ok",
+      "base_ref": "master",
+      "head_ref": "gv/fix-jira-cyclic-sync",
+      "github_changed_files": 7,
+      "local_files": 7,
+      "commits": 8,
+      "n_golden_comments": 4
+    },
+    {
+      "id": "martian-sentry-80168",
+      "status": "ok",
+      "base_ref": "master",
+      "head_ref": "danf/we-occurrences-hook",
+      "github_changed_files": 4,
+      "local_files": 4,
+      "commits": 2,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-sentry-80528",
+      "status": "ok",
+      "base_ref": "master",
+      "head_ref": "evanpurkhiser/ref-crons-reorganize-incident-creation-issue-occurrence-logic",
+      "github_changed_files": 4,
+      "local_files": 4,
+      "commits": 1,
+      "n_golden_comments": 2
+    },
+    {
+      "id": "martian-sentry-95633",
+      "status": "ok",
+      "base_ref": "master",
+      "head_ref": "danf/uptime-queue-consumer",
+      "github_changed_files": 7,
+      "local_files": 7,
+      "commits": 8,
+      "n_golden_comments": 3
+    }
+  ],
+  "mismatched": [],
+  "diff_overlaps": [
+    {
+      "repo": "calcom/cal.com",
+      "pair": [
+        "martian-cal_dot_com-10600",
+        "martian-cal_dot_com-14740"
+      ],
+      "shared_files": [
+        "apps/web/public/static/locales/en/common.json"
+      ]
+    },
+    {
+      "repo": "calcom/cal.com",
+      "pair": [
+        "martian-cal_dot_com-10600",
+        "martian-cal_dot_com-14943"
+      ],
+      "shared_files": [
+        "packages/prisma/schema.prisma"
+      ]
+    },
+    {
+      "repo": "calcom/cal.com",
+      "pair": [
+        "martian-cal_dot_com-10967",
+        "martian-cal_dot_com-11059"
+      ],
+      "shared_files": [
+        "packages/app-store/googlecalendar/lib/CalendarService.ts",
+        "packages/app-store/larkcalendar/lib/CalendarService.ts",
+        "packages/app-store/office365calendar/lib/CalendarService.ts"
+      ]
+    },
+    {
+      "repo": "ai-code-review-evaluation/discourse-graphite",
+      "pair": [
+        "martian-discourse-4",
+        "martian-discourse-8"
+      ],
+      "shared_files": [
+        "config/locales/client.en.yml",
+        "config/routes.rb"
+      ]
+    },
+    {
+      "repo": "ai-code-review-evaluation/sentry-greptile",
+      "pair": [
+        "martian-sentry-1",
+        "martian-sentry-2"
+      ],
+      "shared_files": [
+        "src/sentry/api/endpoints/organization_auditlogs.py",
+        "src/sentry/api/paginator.py",
+        "src/sentry/utils/cursors.py"
+      ]
+    },
+    {
+      "repo": "ai-code-review-evaluation/sentry-greptile",
+      "pair": [
+        "martian-sentry-3",
+        "martian-sentry-5"
+      ],
+      "shared_files": [
+        "tests/snuba/api/endpoints/test_organization_events_stats.py"
+      ]
+    }
+  ]
+}

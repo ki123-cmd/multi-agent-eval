@@ -1,0 +1,8 @@
+﻿{
+  "dataset": "Aider Polyglot Benchmark",
+  "case_id": "javascript/high-scores",
+  "source_url": "https://github.com/Aider-AI/polyglot-benchmark",
+  "scenario": "feature-development",
+  "language": "javascript",
+  "note": "Local minimal feature-implementation exercise in the style of the benchmark's Exercism-derived JavaScript tasks."
+}

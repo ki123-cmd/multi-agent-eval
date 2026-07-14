@@ -1,0 +1,220 @@
+{
+  "golden": [
+    {
+      "case_id": "polyglot-py-book-store",
+      "k_valid": 3,
+      "n_pass": 2,
+      "n_infra_error": 0,
+      "pass_rate": 0.67
+    },
+    {
+      "case_id": "polyglot-py-go-counting",
+      "k_valid": 3,
+      "n_pass": 2,
+      "n_infra_error": 0,
+      "pass_rate": 0.67
+    },
+    {
+      "case_id": "polyglot-py-phone-number",
+      "k_valid": 3,
+      "n_pass": 1,
+      "n_infra_error": 0,
+      "pass_rate": 0.33
+    },
+    {
+      "case_id": "polyglot-py-rest-api",
+      "k_valid": 3,
+      "n_pass": 1,
+      "n_infra_error": 0,
+      "pass_rate": 0.33
+    },
+    {
+      "case_id": "polyglot-py-tree-building",
+      "k_valid": 3,
+      "n_pass": 1,
+      "n_infra_error": 0,
+      "pass_rate": 0.33
+    }
+  ],
+  "ceiling": [
+    {
+      "case_id": "polyglot-py-affine-cipher",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-beer-song",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-bottle-song",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-bowling",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-dominoes",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-food-chain",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-forth",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-grade-school",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-hangman",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-list-ops",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-pig-latin",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-poker",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-react",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-robot-name",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-scale-generator",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-sgf-parsing",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-simple-linked-list",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-transpose",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-two-bucket",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-variable-length-quantity",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-wordy",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-zebra-puzzle",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    },
+    {
+      "case_id": "polyglot-py-zipper",
+      "k_valid": 3,
+      "n_pass": 3,
+      "n_infra_error": 0,
+      "pass_rate": 1.0
+    }
+  ],
+  "floor": [
+    {
+      "case_id": "polyglot-py-dot-dsl",
+      "k_valid": 3,
+      "n_pass": 0,
+      "n_infra_error": 0,
+      "pass_rate": 0.0
+    },
+    {
+      "case_id": "polyglot-py-paasio",
+      "k_valid": 3,
+      "n_pass": 0,
+      "n_infra_error": 0,
+      "pass_rate": 0.0
+    }
+  ],
+  "partial": [],
+  "infra_error": []
+}

@@ -1,0 +1,8 @@
+﻿{
+  "dataset": "BugsInPy",
+  "case_id": "tqdm-1",
+  "source_url": "https://github.com/soarsmu/BugsInPy",
+  "scenario": "bug-fix",
+  "language": "python",
+  "note": "Local minimal reproduction of the historical tqdm tenumerate start-index bug pattern."
+}
