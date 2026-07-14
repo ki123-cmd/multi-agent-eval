@@ -8,13 +8,8 @@
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
 
-  // SWE-bench 官方最低要求：x86_64 / 8 核 / 16GB RAM / 120GB 磁盘。
-  // storage 拉满 128GB —— 这是 Codespaces 的上限，也是本方案唯一擦边的资源。
-  "hostRequirements": {
-    "cpus": 8,
-    "memory": "32gb",
-    "storage": "128gb"
-  },
+  // 注意：hostRequirements 会过滤可选机型。先不设限，探明账号实际能拿到什么规格，
+  // 再决定 SWE-bench（官方要求 8核/16GB/120GB）跑不跑得动。
 
   "postCreateCommand": "pip install --upgrade pip && pip install swebench datasets",
 
